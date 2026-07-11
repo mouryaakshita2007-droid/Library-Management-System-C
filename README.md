@@ -1,58 +1,162 @@
 # 📚 Library Management System in C
 
-A menu-driven Library Management System developed in C using file handling and modular programming.
+A menu-driven **Library Management System** developed in **C** using modular programming and file handling. The project enables administrators and users to efficiently manage books, members, issue/return operations, and automatically calculate fines for overdue books.
 
-## Features
+---
 
-- Admin and User Login
-- Add Books
-- Display Books
-- Search Books
+## ✨ Features
+
+### 👨‍💼 Admin
+
+- Login Authentication
+- Add New Books
+- Display All Books
+- Search Books by ID
 - Delete Books
 - Add Members
 - Issue Books
 - Return Books
-- Late Return Fine (₹5 per week after the due date)
-- Book Not Found Validation
-- File Handling using .dat files
+- Undo Last Deleted Book
+- Automatic Fine Calculation
 
-## Technologies Used
+### 👤 User
+
+- View Available Books
+- Search Books
+- Issue Books
+- Return Books
+
+---
+
+## 🔥 Additional Features
+
+✅ Book Not Found Validation
+
+✅ File Handling using `.dat` files
+
+✅ Admin/User Login
+
+✅ Automatic Fine Calculation
+
+✅ Date-based Due Date Calculation
+
+---
+
+## 🛠 Technologies Used
 
 - C Programming
-- File Handling
 - Structures
 - Functions
+- Arrays
+- File Handling
+- Header Files
 - Modular Programming
-- GCC Compiler (MinGW)
+- GCC (MinGW)
+- Git & GitHub
 
-## Project Structure
+---
+
+## 📂 Project Structure
 
 ```
-main.c
-books.c
-books.h
-members.c
-members.h
-utils.c
-utils.h
-books.dat
-members.dat
+Library-Management-System-C
+│
+├── main.c
+├── books.c
+├── books.h
+├── members.c
+├── members.h
+├── utils.c
+├── utils.h
+├── books.dat
+├── members.dat
+└── .gitignore
 ```
 
-## How to Compile
+---
+
+## ⚙️ Compilation
 
 ```bash
 gcc main.c books.c members.c utils.c -o library.exe
 ```
 
-## How to Run
+---
+
+## ▶️ Run
 
 ```bash
 library.exe
 ```
 
-## Author
+---
 
-Akshita Mourya
-B.Tech CSE
-Bharati Vidyapeeth Deemed University
+## 📸 Screenshots
+
+### Login Screen
+
+(Add Screenshot)
+
+---
+
+### Admin Menu
+
+(Add Screenshot)
+
+---
+
+### Add Book
+
+(Add Screenshot)
+
+---
+
+### Display Books
+
+(Add Screenshot)
+
+---
+
+### Issue Book
+
+(Add Screenshot)
+
+---
+
+### Return Book
+
+(Add Screenshot)
+
+---
+
+### Fine Calculation
+
+(Add Screenshot)
+
+---
+
+## 🚀 Future Improvements
+
+- GUI Version
+- Barcode Scanner
+- Book Reservation
+- Password Encryption
+- Database Integration
+- Search by Author
+- Search by Genre
+
+---
+
+## 👩‍💻 Author
+
+**Akshita Mourya**
+
+B.Tech Computer Science Engineering
+
+Bharati Vidyapeeth (Deemed to be University)
+
+Navi Mumbai
+
+---
+
+## ⭐ If you found this project useful, don't forget to star it!
